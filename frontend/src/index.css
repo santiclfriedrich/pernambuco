@@ -15,8 +15,14 @@ main{
   flex: 1;
 }
 
-h1{
-  text-align: center;
+.btn-primary {
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: unset;
+}
+.btn-primary:hover {
+  background-color: #404040;
+  border: 1px solid #000;
 }
 
 .products {
