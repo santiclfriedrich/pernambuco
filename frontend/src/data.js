@@ -30,6 +30,16 @@ const data = {
             brand: 'Pernambuco',
             description: 'Pantalon Cargo Azul. Tiro alto/ Regular. Composición: Algodón'
         },
+        { 
+            name: 'Medias Blancas',
+            slug: 'medias-blancas-pernam',
+            category: 'Accesorios',
+            image: '/images/medias-shop.png',
+            price: 1200,
+            countInStock: 15,
+            brand: 'Pernambuco',
+            description: 'Medias blancas con rayas negras. Composición: Algodón'
+        },
     ],
 };
 

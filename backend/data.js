@@ -16,7 +16,7 @@ const data = {
             category: 'Gorras',
             image: '/images/gorra-marron.png',
             price: 2500,
-            countInStock: 5,
+            countInStock: 0,
             brand: 'Ejx',
             description: 'Gorra Corderoy basta media 100% algodón. Talle único. Etiqueta de marca bordada en frente.'
         },
@@ -29,6 +29,16 @@ const data = {
             countInStock: 2,
             brand: 'Pernambuco',
             description: 'Pantalon Cargo Azul. Tiro alto/ Regular. Composición: Algodón'
+        },
+        { 
+            name: 'Medias Blancas',
+            slug: 'medias-blancas-pernam',
+            category: 'Accesorios',
+            image: '/images/medias-shop.png',
+            price: 1200,
+            countInStock: 15,
+            brand: 'Pernambuco',
+            description: 'Medias blancas con rayas negras. Composición: Algodón'
         },
     ],
 };
