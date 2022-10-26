@@ -1,6 +1,7 @@
 const data = {
     products: [
         {
+            _id: '1',
             name: 'Remera Negra',
             slug: 'remera-negra-pernam',
             category: 'Remeras',
@@ -11,6 +12,7 @@ const data = {
             description: 'Remera negra lisa 100% algodon'
         },
         {
+            _id: '2',
             name: 'Gorra Marron',
             slug: 'gorra-marron-ejx',
             category: 'Gorras',
@@ -21,6 +23,7 @@ const data = {
             description: 'Gorra Corderoy basta media 100% algodón. Talle único. Etiqueta de marca bordada en frente.'
         },
         { 
+            _id: '3',
             name: 'Cargo Pants',
             slug: 'cargo-azul-pernam',
             category: 'Pantalones',
@@ -31,6 +34,7 @@ const data = {
             description: 'Pantalon Cargo Azul. Tiro alto/ Regular. Composición: Algodón'
         },
         { 
+            _id: '4',
             name: 'Medias Blancas',
             slug: 'medias-blancas-pernam',
             category: 'Accesorios',
