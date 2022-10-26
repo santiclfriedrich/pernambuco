@@ -7,11 +7,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.site-container{
+.site-container {
   min-height: 100vh;
 }
 
-main{
+main {
   flex: 1;
 }
 
@@ -47,4 +47,8 @@ main{
 
 .img-large {
   max-width: 100%;
+}
+
+.img-thumbnail {
+  height: 80px;
 }
