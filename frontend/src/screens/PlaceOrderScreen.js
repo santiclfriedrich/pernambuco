@@ -10,7 +10,7 @@ import { Store } from '../Store';
 import CheckoutSteps from '../components/CheckoutSteps';
 import Axios from 'axios';
 import { toast } from 'react-toastify';
-import { getError } from '../util';
+import { getError } from '../utils.js';
 import LoadingBox from '../components/LoadingBox';
 
 const reducer = (state, action) => {
