@@ -20,7 +20,7 @@ export default function CartScreen() {
   const updateCardHandler = async (item, quantity) => {
     const { data } = await axios.get(`/api/products/${item._id}`);
     if (data.countInStock < quantity) {
-      window.alert('Sorry. Product is out of stock');
+      window.alert('Lo sentimos. No hay stock de este producto');
       return;
     }
     ctxDispatch({
@@ -48,7 +48,7 @@ export default function CartScreen() {
         <Col md={8}>
           {cartItems.length === 0 ? (
             <MessageBox>
-              Cart is empty. <Link to="/">Go Shopping</Link>
+              El carrito está vacío. <Link to="/">Comprar</Link>
             </MessageBox>
           ) : (
             <ListGroup>
